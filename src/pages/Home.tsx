@@ -82,11 +82,11 @@ export function Home() {
                 transition={{ duration: 0.7, delay: 0.25 }}
                 className="mt-9 flex flex-wrap justify-start gap-3"
               >
-                <a href="#menu">
-                  <Button size="lg">
-                    View menu <ArrowRightIcon className="h-4 w-4" />
-                  </Button>
-                </a>
+                <Link to="/products">
+  <Button size="lg">
+    View Menu <ArrowRightIcon className="h-4 w-4" />
+  </Button>
+</Link>
                 <Link to="/contact">
                   <Button size="lg" variant="secondary">
                     Contact us
